@@ -1,7 +1,7 @@
 export default () => ({ // eslint-disable-line
 
   // link file UUID
-  id: '',
+  id: '28bb464a-34c3-11e7-bce4-9023f8c0fd2e',
 
   // canonical URL of the published page
   // https://ig.ft.com/americas-cup-2017 get filled in by the ./configure script
@@ -11,15 +11,14 @@ export default () => ({ // eslint-disable-line
   //       new Date('2016-05-17T17:11:22Z')
   publishedDate: new Date(),
 
-  headline: 'Politics and the English Language',
+  headline: 'Headline goes here',
 
   // summary === standfirst (Summary is what the content API calls it)
-  summary: 'Political language is designed to make lies sound truthful' +
-           'and murder respectable, and to give an appearance of solidity to pure wind',
+  summary: 'Second deck goes here',
 
   topic: {
-    name: 'Starter Kit',
-    url: '/foo',
+    name: 'FT Data',
+    url: 'https://www.ft.com/ft-data',
   },
 
   relatedArticle: {
@@ -39,8 +38,8 @@ export default () => ({ // eslint-disable-line
   // Byline can by a plain string, markdown, or array of authors
   // if array of authors, url is optional
   byline: [
-    { name: 'Author One', url: '/foo/bar' },
-    { name: 'Author Two' },
+    { name: 'Graham Parrish' },
+    { name: 'Simon Greaves', url: 'https://www.ft.com/stream/authorsId/OWMyZTNlOGMtYThiMi00YTAxLTlhNGEtM2E0NGUxNTljYjQy-QXV0aG9ycw==' },
   ],
 
   // Appears in the HTML <title>
