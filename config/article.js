@@ -11,10 +11,10 @@ export default () => ({ // eslint-disable-line
   //       new Date('2016-05-17T17:11:22Z')
   publishedDate: new Date(),
 
-  headline: 'Headline goes here',
+  headline: "Challengers aim to foil Oracle Team USA in America’s Cup",
 
   // summary === standfirst (Summary is what the content API calls it)
-  summary: 'Second deck goes here',
+  summary: 'The oldest trophy in sport gets under way, with five teams looking to overhaul Larry Ellison’s boat',
 
   topic: {
     name: 'FT Data',
@@ -38,7 +38,7 @@ export default () => ({ // eslint-disable-line
   // Byline can by a plain string, markdown, or array of authors
   // if array of authors, url is optional
   byline: [
-    { name: 'Graham Parrish' },
+    { name: 'Graham Parrish', url: 'https://www.ft.com/search?q=graham+parrish'},
     { name: 'Simon Greaves', url: 'https://www.ft.com/stream/authorsId/OWMyZTNlOGMtYThiMi00YTAxLTlhNGEtM2E0NGUxNTljYjQy-QXV0aG9ycw==' },
   ],
 
