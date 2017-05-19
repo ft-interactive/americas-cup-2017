@@ -1,37 +1,37 @@
 export default () => ({ // eslint-disable-line
 
-  // link file UUID
-  id: '$uuid',
+ // link file UUID
+  id: '4100cf8e-34c0-11e7-bce4-9023f8c0fd2e',
 
   // canonical URL of the published page
-  // "$url" get filled in by the ./configure script
-  url: '$url',
+  // https://ig.ft.com/americas-cup-2017 get filled in by the ./configure script
+  url: 'https://ig.ft.com/americas-cup-2017',
 
   // To set an exact publish date do this:
   //       new Date('2016-05-17T17:11:22Z')
-  publishedDate: new Date(),
+  publishedDate: new Date('2017-05-22T05:00:00Z'),
 
-  headline: 'Politics and the English Language',
+  headline: "Challengers aim to foil Oracle Team USA in America’s Cup",
 
   // summary === standfirst (Summary is what the content API calls it)
-  summary: 'Political language is designed to make lies sound truthful' +
-           'and murder respectable, and to give an appearance of solidity to pure wind',
+  summary: 'In international sport’s oldest trophy, five high-tech boats are looking to overhaul defending champion Larry Ellison’s American team',
 
   topic: {
-    name: 'Starter Kit',
-    url: '/foo',
+    name: 'Sport',
+    url: 'https://www.ft.com/sport',
   },
 
   relatedArticle: {
-    text: 'Related article »',
-    url: 'https://en.wikipedia.org/wiki/Politics_and_the_English_Language',
+    text: '',
+    url: '',
   },
 
   mainImage: {
     title: '',
     description: '',
     credit: '',
-    url: 'https://image.webservices.ft.com/v1/images/raw/http%3A%2F%2Fcom.ft.imagepublish.prod.s3.amazonaws.com%2Fc4bf0be4-7c15-11e4-a7b8-00144feabdc0?source=ig&fit=scale-down&width=700',
+    url: '',
+    //url: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3A1b3a3922-3cb6-11e7-821a-6027b8a20f23?source=ig&width=1400',
     width: 2048, // ensure correct width
     height: 1152, // ensure correct height
   },
@@ -39,56 +39,48 @@ export default () => ({ // eslint-disable-line
   // Byline can by a plain string, markdown, or array of authors
   // if array of authors, url is optional
   byline: [
-    { name: 'Author One', url: '/foo/bar' },
-    { name: 'Author Two' },
+    { name: 'Graham Parrish', url: 'https://www.ft.com/search?q=graham+parrish'},
+    { name: 'Simon Greaves', url: 'https://www.ft.com/stream/authorsId/OWMyZTNlOGMtYThiMi00YTAxLTlhNGEtM2E0NGUxNTljYjQy-QXV0aG9ycw==' },
   ],
 
   // Appears in the HTML <title>
-  title: '',
+  title: 'High tech challengers aim to foil Oracle Team USA in America’s Cup',
 
   // meta data
-  description: '',
+  description: 'In international sport’s oldest trophy, five high-tech boats are looking to overhaul defending champion Larry Ellison’s American team',
 
   /*
   TODO: Select Twitter card type -
-        "summary" or "summary_large_image"
+        summary or summary_large_image
 
         Twitter card docs:
         https://dev.twitter.com/cards/markup
   */
-  twitterCard: 'summary',
+  twitterCard: 'summary_large_image',
 
   /*
   TODO: Do you want to tweak any of the
         optional social meta data?
   */
   // General social
-  // socialImage: '',
-  // socialHeadline: '',
-  // socialDescription: '',
-  // twitterCreator: '@author's_account', // shows up in summary_large_image cards
+socialImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3A1b3a3922-3cb6-11e7-821a-6027b8a20f23?source=ig&width=1400',
+socialHeadline: 'High tech challengers aim to foil Oracle Team USA in America’s Cup',
+ socialSummary:  'High tech challengers aim to foil Oracle Team USA in America’s Cup',
 
-  // TWEET BUTTON CUSTOM TEXT
-  // tweetText: '',
-  // twitterRelatedAccounts: ['authors_account_here', 'ftdata'], // Twitter lists these as suggested accounts to follow after a user tweets (do not include @)
-
-  // Fill out the Facebook/Twitter metadata sections below if you want to
-  // override the "General social" options above
-
-  // TWITTER METADATA (for Twitter cards)
-  // twitterImage: '',
-  // twitterHeadline: '',
-  // twitterDescription: '',
+  // TWITTER
+twitterImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3A1b3a3922-3cb6-11e7-821a-6027b8a20f23?source=ig&width=1400',
+twitterCreator: '@ft',
+ tweetText:  'High tech challengers aim to foil Oracle Team USA in America’s Cup',
+ twitterHeadline:  'High tech challengers aim to foil Oracle Team USA in America’s Cup',
 
   // FACEBOOK
-  // facebookImage: '',
-  // facebookHeadline: '',
-  // facebookDescription: '',
+ facebookImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3A1b3a3922-3cb6-11e7-821a-6027b8a20f23?source=ig&width=1400',
+ facebookHeadline: 'High tech challengers aim to foil Oracle Team USA in America’s Cup',
 
   //ADVERTISING
   ads: {
     // ad unit hierarchy makes ads more granular. Start with ft.com and /companies /markets /world as appropriate to your story
-    gptAdunit: 'ft.com/companies/european',
+    gptAdunit: 'ft.com/',
     // granular targeting is optional and will be specified by the ads team
     dftTargeting: '',
   },

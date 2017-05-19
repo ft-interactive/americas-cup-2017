@@ -17,3 +17,23 @@ $o-ads-is-silent: false;
                 - index.js
                 - template.html
 */
+table {width:100%;
+  font-family: MetricWeb, sans-serif;
+    background-color:#f7e9d9;
+    padding:20px;
+  }
+
+table td.key {text-align:left; -webkit-font-smoothing:antialiased; font-weight:600;}
+
+table td.value {text-align:right; vertical-align:top;} 
+
+.boat-text,  {
+  font-family: MetricWeb, sans-serif;
+  background-color:#f7e9d9; 
+  padding:20px;
+}
+
+.boat-text p, .boat-text li, .boat-text ol, { 
+  font-family: MetricWeb, sans-serif;
+  font-size: 20px;
+}
