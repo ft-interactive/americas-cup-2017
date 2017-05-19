@@ -1,8 +1,9 @@
+$o-ads-is-silent: false;
 @import 'o-colors/main';
+@import 'o-grid/main';
 @import 'components/core/main';
-@import 'o-table/main';
-@import 'o-typography/main';
-
+//@import 'components/ads/styles';
+@import 'o-ads/main';
 /*
       TODO: delete this comment
 
@@ -16,7 +17,6 @@
                 - index.js
                 - template.html
 */
-
 table {width:100%;
   font-family: MetricWeb, sans-serif;
     background-color:#f7e9d9;
@@ -28,7 +28,7 @@ table td.key {text-align:left; -webkit-font-smoothing:antialiased; font-weight:6
 table td.value {text-align:right; vertical-align:top;} 
 
 .boat-text,  {
-	font-family: MetricWeb, sans-serif;
+  font-family: MetricWeb, sans-serif;
   background-color:#f7e9d9; 
   padding:20px;
 }

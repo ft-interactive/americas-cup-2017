@@ -1,3 +1,4 @@
+{% import "./macros.html" as macros %}
 {% extends "layout.html" %}
 
 {% block article_body %}
@@ -37,6 +38,13 @@ Pushing a hull through water rather than over it creates drag, with resistance i
 In recent years, match sailing at this level has become [a high-tech enterprise](https://www.ft.com/content/aa3e7df0-de3b-11e2-9b47-00144feab7de) as teams with budgets of around £100m battle for engineering advantage by applying techniques developed in areas like aviation and [Formula One motor racing](https://www.ft.com/content/ecea90d4-e163-11e5-9217-6ae3733a2cd1).
 
 The six boats are essentially identical, but can be tweaked within design rules so teams can gain advantages in their use of foils and daggerboards, rudder control systems, aerodynamics, and wing deployment.
+
+{# START MID AD SLOT
+    You can move this wherever it works best in your page's design.
+    For more control over the size, write your own o-ads div - see
+    https://financial-times.github.io/o-ads/docs/developer-guide/display #}
+{% if ads %}{{ macros.middleAd() }}{% endif %}
+{# END MID AD SLOT #}
 
 Innovations this 45th regatta include Emirates Team New Zealand using a pedal cycling system instead of arm grinders to power its hydraulics while the British team has 400 sensors on board to help optimise tactics and decision-making, coupled with video and data feeds that allow the team to operate a ‘virtual chase boat’ at its Portsmouth base.
 

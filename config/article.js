@@ -1,6 +1,6 @@
 export default () => ({ // eslint-disable-line
 
-  // link file UUID
+ // link file UUID
   id: '4100cf8e-34c0-11e7-bce4-9023f8c0fd2e',
 
   // canonical URL of the published page
@@ -30,7 +30,8 @@ export default () => ({ // eslint-disable-line
     title: '',
     description: '',
     credit: '',
-    url: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3A1b3a3922-3cb6-11e7-821a-6027b8a20f23?source=ig&width=1400',
+    url: '',
+    //url: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3A1b3a3922-3cb6-11e7-821a-6027b8a20f23?source=ig&width=1400',
     width: 2048, // ensure correct width
     height: 1152, // ensure correct height
   },
@@ -76,6 +77,14 @@ twitterCreator: '@ft',
  facebookImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3A1b3a3922-3cb6-11e7-821a-6027b8a20f23?source=ig&width=1400',
  facebookHeadline: 'High tech challengers aim to foil Oracle Team USA in America’s Cup',
 
+  //ADVERTISING
+  ads: {
+    // ad unit hierarchy makes ads more granular. Start with ft.com and /companies /markets /world as appropriate to your story
+    gptAdunit: 'ft.com/',
+    // granular targeting is optional and will be specified by the ads team
+    dftTargeting: '',
+  },
+
   tracking: {
 
     /*
@@ -93,7 +102,7 @@ twitterCreator: '@ft',
     /*
     Product name
 
-    This will usually default to IG
+    This will usually default to "IG"
     however another value may be needed
     */
     // product: '',
