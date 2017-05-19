@@ -14,11 +14,11 @@ export default () => ({ // eslint-disable-line
   headline: "Challengers aim to foil Oracle Team USA in America’s Cup",
 
   // summary === standfirst (Summary is what the content API calls it)
-  summary: 'The oldest trophy in sport gets under way, with five teams looking to overhaul Larry Ellison’s boat',
+  summary: 'In international sport’s oldest trophy, five high-tech boats are looking to overhaul defending champion Larry Ellison’s American team',
 
   topic: {
-    name: 'FT Data',
-    url: 'https://www.ft.com/ft-data',
+    name: 'Sport',
+    url: 'https://www.ft.com/sport',
   },
 
   relatedArticle: {
