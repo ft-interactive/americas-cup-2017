@@ -9,7 +9,7 @@ export default () => ({ // eslint-disable-line
 
   // To set an exact publish date do this:
   //       new Date('2016-05-17T17:11:22Z')
-  publishedDate: new Date(),
+  publishedDate: new Date('2017-05-22T05:00:00Z'),
 
   headline: "Challengers aim to foil Oracle Team USA in America’s Cup",
 
@@ -43,10 +43,10 @@ export default () => ({ // eslint-disable-line
   ],
 
   // Appears in the HTML <title>
-  title: '',
+  title: 'High tech challengers aim to foil Oracle Team USA in America’s Cup',
 
   // meta data
-  description: '',
+  description: 'In international sport’s oldest trophy, five high-tech boats are looking to overhaul defending champion Larry Ellison’s American team',
 
   /*
   TODO: Select Twitter card type -
