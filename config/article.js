@@ -30,7 +30,7 @@ export default () => ({ // eslint-disable-line
     title: '',
     description: '',
     credit: '',
-    url: '',
+    url: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3A1b3a3922-3cb6-11e7-821a-6027b8a20f23?source=ig&width=1400',
     width: 2048, // ensure correct width
     height: 1152, // ensure correct height
   },
@@ -55,26 +55,26 @@ export default () => ({ // eslint-disable-line
         Twitter card docs:
         https://dev.twitter.com/cards/markup
   */
-  twitterCard: 'summary',
+  twitterCard: 'summary_large_image',
 
   /*
   TODO: Do you want to tweak any of the
         optional social meta data?
   */
   // General social
-  // socialImage: '',
-  // socialHeadline: '',
-  // socialSummary:  '',
+socialImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3A1b3a3922-3cb6-11e7-821a-6027b8a20f23?source=ig&width=1400',
+socialHeadline: 'High tech challengers aim to foil Oracle Team USA in America’s Cup',
+ socialSummary:  'High tech challengers aim to foil Oracle Team USA in America’s Cup',
 
   // TWITTER
-  // twitterImage: '',
-  // twitterCreator: '@individual's_account',
-  // tweetText:  '',
-  // twitterHeadline:  '',
+twitterImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3A1b3a3922-3cb6-11e7-821a-6027b8a20f23?source=ig&width=1400',
+twitterCreator: '@ft',
+ tweetText:  'High tech challengers aim to foil Oracle Team USA in America’s Cup',
+ twitterHeadline:  'High tech challengers aim to foil Oracle Team USA in America’s Cup',
 
   // FACEBOOK
-  // facebookImage: '',
-  // facebookHeadline: '',
+ facebookImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3A1b3a3922-3cb6-11e7-821a-6027b8a20f23?source=ig&width=1400',
+ facebookHeadline: 'High tech challengers aim to foil Oracle Team USA in America’s Cup',
 
   tracking: {
 
