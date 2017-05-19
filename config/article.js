@@ -1,7 +1,7 @@
 export default () => ({ // eslint-disable-line
 
   // link file UUID
-  id: '28bb464a-34c3-11e7-bce4-9023f8c0fd2e',
+  id: '4100cf8e-34c0-11e7-bce4-9023f8c0fd2e',
 
   // canonical URL of the published page
   // https://ig.ft.com/americas-cup-2017 get filled in by the ./configure script
