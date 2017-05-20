@@ -80,7 +80,7 @@ twitterCreator: '@ft',
   //ADVERTISING
   ads: {
     // ad unit hierarchy makes ads more granular. Start with ft.com and /companies /markets /world as appropriate to your story
-    gptAdunit: 'ft.com/',
+    gptAdunit: 'ft.com/world',
     // granular targeting is optional and will be specified by the ads team
     dftTargeting: '',
   },
